@@ -16,7 +16,7 @@ SQL Server Management & Visual Studio.
 ---
 ## Instructions
 To Run the project:
-A. First of all you need to open the [GroupC.Uni.bak](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/GroupC.Uni.bak) file in your sql developer databases.
+A. First of all you need to open the [GroupC.Uni.bak](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/GroupC.Uni.bak) file in your sql developer databases.
 B. open the solution of the project In Visual Studio
 And in the following 3 Projects: GroupC.Uni.ConsumingApi / GroupC.Uni.Web / GroupC.Uni.Student
 you need to update the `appsettings.json` file : each `server` attribute with your computer name, and the `DataBase` attribute with the name you've chosen when restoring GroupC.Uni.bak file in previous step.
@@ -71,39 +71,39 @@ Here, will be provided some of the processes that can be accomplished through th
 
 •	Logging in as Admin/TestCenter within an email and password:
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/1.LogIn.png "Logging In")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/1.LogIn.png "Logging In")
 
 •	Admin/TestCenter home page: From the home page as shown in the following picture, the user can access view/add student/course/topic/question/exam according to their rule.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/2.HomePage.png "Homepage")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/2.HomePage.png "Homepage")
 
 •	In the home page when pressing on one of the four upper boxes, a table of its content will be shown, as the following figure when pressing on “See content” from the “Exam” box.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/3.Exams.png "Exams")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/3.Exams.png "Exams")
 
 •	In the home page when hovering over the user name, a popup containing their information will be shown.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/4.PopUp.png "Pop Up")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/4.PopUp.png "Pop Up")
 
 •	From the popup, when pressing on “profile”, a profile page with the user information will be shown.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/5.ProfilePage.png "Profile page")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/5.ProfilePage.png "Profile page")
 
 •	Adding a new course will require filling the following form: 
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/6.AddingCourse.png "ِAdding Course")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/6.AddingCourse.png "ِAdding Course")
 
 •	After adding a new course (or any another element) successfully, a message in the top will appear informing the user that the course was added successfully and the course details will be listed.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/7.SuccessMessage.png "Success Message")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/7.SuccessMessage.png "Success Message")
 
 •	A table of the added questions will be as follow, please note that questions can be added as HTML text which allow formatting the question text.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/8.AddQuestions.png "Add Questions")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/8.AddQuestions.png "Add Questions")
 
 •	Creating a new exam will require selecting a desired number of questions in order to create the exam randomly of the existed questions for the selected course.
 
-![alt text](https://github.com/Nemat-Allah-Aloush/Exam-Platform-ASP.NET-Core/blob/main/Images/9.CreateExam.png "Create Exam")
+![alt text](https://github.com/nemat-al/Exam-Platform-ASP.NET-Core/blob/main/Images/9.CreateExam.png "Create Exam")
 
 
 Other services are provided with this project, only some of the services were shown above.
